@@ -31,7 +31,7 @@ We use a selection of 32 variables from the [GENNOVATE](https://gennovate.org/) 
 
 The full GENNOVATE methodology and data collection instruments are available as a pdf [here](https://gennovate.org/wp-content/uploads/2018/10/GENNOVATE-Methodology_Feb2018_FINAL.pdf). 
 
-The dataset containing the 32 variables is avalaible in the csv file  `GennovateWheatMaize.csv`, available for download [here](https://github.com/rfrelat/GenderClimate/raw/master/GennovateWheatMaize.csv)
+The dataset containing the 32 variables is avalaible in the csv file  `GennovateWheatMaize.csv`, available for download [here](https://github.com/rfrelat/GenderClimate/raw/main/GenderClimateGennovate.zip)
 
 The variable selection followed a process that included data curation, cleaning and exploration. The first dataset included 135 variables. We used Microsoft Excel to organize and clean the data which was later explored in R using visualization techniques (i.e. histograms, barplots, and pairwise plots). After several iterations, and once data was coherent and ready to be compared across the 70 villages, we selected the final 32 variables. The selection was based on the availability (and consistency) of information as well as other criteria for variable selection in multivariate analysis (MVA) (see section 1.4). The final selection comprised categorical and numerical variables. Therefore, we used the Hill and Smith method (Hill & Smith, 1976) which—although similar to Principal Component Analysis (PCA)—further allows analysis with both categorical and numerical variables (Kiers, 1994). This method helped to simplify the original large variables into Principal Components (PCs) while maintaining the maximum of the variability in the datasets.  
 
@@ -42,7 +42,7 @@ The **goal** of this tutorial is to **present the construction of the principal 
 
 ## 1.1 Load the dataset
 
-Make sure you file `GennovateWheatMaize.csv` is in your working directory, and load it in R
+Make sure you [file](https://github.com/rfrelat/GenderClimate/raw/main/GennovateWheatMaize.csv) `GennovateWheatMaize.csv` is in your working directory, and load it in R
 
 ```{r}
 tab <- read.csv("GennovateWheatMaize.csv", 

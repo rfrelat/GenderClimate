@@ -427,7 +427,7 @@ library(vegan)</code></pre>
 <p>If you get an error message, check that the R packages <code>ade4</code> and <code>vegan</code> are installed correctly. If not, use the command: <code>install.packages(c(&quot;ade4&quot;, &quot;vegan&quot;))</code>.</p>
 <p>We use a selection of 32 variables from the <a href="https://gennovate.org/">GENNOVATE</a> dataset on maize and wheat sampling.</p>
 <p>The full GENNOVATE methodology and data collection instruments are available as a pdf <a href="https://gennovate.org/wp-content/uploads/2018/10/GENNOVATE-Methodology_Feb2018_FINAL.pdf">here</a>.</p>
-<p>The dataset containing the 32 variables is avalaible in the csv file <code>GennovateWheatMaize.csv</code>, available for download <a href="https://github.com/rfrelat/GenderClimate/raw/master/GennovateWheatMaize.csv">here</a></p>
+<p>The dataset containing the 32 variables is avalaible in the csv file <code>GennovateWheatMaize.csv</code>, available for download <a href="https://github.com/rfrelat/GenderClimate/raw/main/GenderClimateGennovate.zip">here</a></p>
 <p>The variable selection followed a process that included data curation, cleaning and exploration. The first dataset included 135 variables. We used Microsoft Excel to organize and clean the data which was later explored in R using visualization techniques (i.e. histograms, barplots, and pairwise plots). After several iterations, and once data was coherent and ready to be compared across the 70 villages, we selected the final 32 variables. The selection was based on the availability (and consistency) of information as well as other criteria for variable selection in multivariate analysis (MVA) (see section 1.4). The final selection comprised categorical and numerical variables. Therefore, we used the Hill and Smith method (Hill &amp; Smith, 1976) which—although similar to Principal Component Analysis (PCA)—further allows analysis with both categorical and numerical variables (Kiers, 1994). This method helped to simplify the original large variables into Principal Components (PCs) while maintaining the maximum of the variability in the datasets.</p>
 <p>The <strong>goal</strong> of this tutorial is to <strong>present the construction of the principal components (PCs) for ‘gender climate’, ‘opportunity’, and ‘connectivity’ through the use of MVA</strong>. Special attention is put in the interpretation of results. Additional variance partitioning is also conducted.</p>
 </div>
@@ -435,7 +435,7 @@ library(vegan)</code></pre>
 <h1>1. Load and visualize the Gennovate data</h1>
 <div id="load-the-dataset" class="section level2">
 <h2>1.1 Load the dataset</h2>
-<p>Make sure you file <code>GennovateWheatMaize.csv</code> is in your working directory, and load it in R</p>
+<p>Make sure you <a href="https://github.com/rfrelat/GenderClimate/raw/main/GennovateWheatMaize.csv">file</a> <code>GennovateWheatMaize.csv</code> is in your working directory, and load it in R</p>
 <pre class="r"><code>tab &lt;- read.csv(&quot;GennovateWheatMaize.csv&quot;, 
                 row.names = 1, stringsAsFactors = TRUE)
 dim(tab)</code></pre>
