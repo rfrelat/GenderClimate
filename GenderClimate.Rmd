@@ -29,7 +29,7 @@ If you get an error message, check that the R packages `ade4` and `vegan` are in
 
 We use a selection of 32 variables from the [GENNOVATE](https://gennovate.org/) dataset on maize and wheat sampling.  
 
-The full GENNOVATE methodology and data collection instruments are available as a pdf [here](https://gennovate.org/wp-content/uploads/2018/10/GENNOVATE-Methodology_Feb2018_FINAL.pdf). 
+The full GENNOVATE methodology and data collection instruments are available as a pdf [here](https://gennovate.org/wp-content/uploads/2018/10/GENNOVATE-Methodology_Feb2018_FINAL.pdf). We also provide an [Excel file](https://github.com/rfrelat/GenderClimate/raw/main/GennovateQuestions.xlsx) with the question codes that informed the variables (to be read together with the methodology).    
 
 The dataset containing the 32 variables is avalaible in the csv file  `GennovateWheatMaize.csv`, available for download [here](https://github.com/rfrelat/GenderClimate/raw/main/GenderClimateGennovate.zip)
 
