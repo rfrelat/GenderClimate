@@ -2,7 +2,7 @@
 
 Companion tutorial to :  
 
-**Towards Gender-Equitable Innovation: Assessing Local Conditions for Agricultural Targeting**  by Diana E. Lopez, Romain Frelat and Lone Badstue.
+Lopez DE, Frelat R, Badstue LB (2022) Towards gender-inclusive innovation: Assessing local conditions for agricultural targeting. **PLoS ONE** 17(3): e0263771. [DOI 10.1371/journal.pone.0263771](https://doi.org/10.1371/journal.pone.0263771)
 
 The instructions can be found [online](https://rfrelat.github.io/GenderClimate.html), or in a [zip folder](https://github.com/rfrelat/GenderClimate/raw/main/GenderClimateGennovate.zip) together with the data and the R-scripts.  
 

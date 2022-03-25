@@ -1,7 +1,7 @@
 ---
-title: 'Towards Gender-Equitable Innovation: Assessing Local Conditions for Agricultural Targeting'
+title: 'Towards Gender-Inclusive Innovation: Assessing Local Conditions for Agricultural Targeting'
 author: "Diana E. Lopez and Romain Frelat"
-date: 'Last update: 11th December 2020'
+date: 'Last update: 25th March 2022'
 output:
   html_document: default
   word_document: default
@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This tutorial provides a quick introduction to multivariate analysis and variance partitioning. The tutorial targets scientists, students, and practitioners working with gender and agriculture that have previous knowledge of the [R software](https://cran.r-project.org/). 
 
-It is the accompanying tutorial for the article **Towards Gender-Equitable Innovation: Assessing Local Conditions for Agricultural Targeting** by Diana E. Lopez, Romain Frelat and Lone Badstue. See the *Materials and Methods* section of the article for more details about the data and the method.
+It is the accompanying tutorial for the article **Towards gender-inclusive innovation: Assessing local conditions for agricultural targeting.** by Diana E. Lopez, Romain Frelat and Lone B. Badstue published in 2022 in Plos One, [DOI 10.1371/journal.pone.0263771](https://doi.org/10.1371/journal.pone.0263771). See the *Materials and Methods* section of the article for more details about the data and the method.
 
 
 # Preliminaries
@@ -376,3 +376,5 @@ Borcard, D.P., Legendre, P., Drapeau, P. 1992. Partialling out the spatial compo
 Hill, M. O., and Smith. A. J. E. 1976. Principal component analysis of taxonomic data with multi-state discrete characters. Taxon, 25, 249-255.
 
 Kiers, H. A. L. 1994. Simple structure in component analysis techniques for mixtures of qualitative ans quantitative variables. Psychometrika, 56, 197-212.
+
+Lopez D.E., Frelat R., Badstue L.B. 2022. Towards gender-inclusive innovation: Assessing local conditions for agricultural targeting. PLoS ONE 17(3): e0263771. [DOI 10.1371/journal.pone.0263771](https://doi.org/10.1371/journal.pone.0263771)
